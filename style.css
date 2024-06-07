@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(20, 42, 87);
+    color: #ffffff;
+    font-family: sans-serif;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  h1, p {
+    margin: 1em auto;
+    text-align: center;
+  }
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  input, textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    display: block;
+  }
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+     background: linear-gradient(rgb(196, 145, 16),rgb(204, 155, 29));
+    border-color: rgb(250, 193, 47);
+    min-width: 300px;
+     
+  }
+  
